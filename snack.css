@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f2f2f2;
+    color: #ff5a00;
+     background-image: url("img/fondo.JPG"); /* tu imagen */
+    background-size: cover; /* cubre toda la pantalla */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 20px;
+}
+.logo img {
+    width: 200px; /* ajusta el tamaño */
+    height: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* CONTENEDOR */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* TITULOS */
+h1 {
+    font-size: 60px;
+    margin: 40px 0 20px;
+}
+
+/* ITEMS */
+.item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.item h3 {
+    margin: 0;
+}
+
+.item p {
+    margin: 3px 0 0;
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* PRECIOS DOBLES */
+.price-group {
+    display: flex;
+    gap: 20px;
+}
+
+/* BOTÓN */
+.cta {
+    text-align: center;
+    margin: 40px 0;
+}
+
+button {
+    background: #ff5a00;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn {
+    background: #ff5a00;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e14d00;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.direccion {
+    margin-top: 10px;
+}
+
+.copy {
+    margin-top: 10px;
+    font-size: 12px;
+}
